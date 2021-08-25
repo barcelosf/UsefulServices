@@ -1,0 +1,42 @@
+div#urlShortener{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+div#urlShortener a{
+    text-decoration: none;
+}
+
+div#urlShortener div#inputText input{
+    width: 280px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    height: 20px;
+}
+
+div#urlShortener div#inputText button{
+    height: 30px;
+    width: 80px;
+    background-color: cadetblue;
+    color: darkblue;
+}
+
+@media(max-width: 800px) and (min-width: 200px){
+
+    div#urlShortener h1{
+        text-align: center;
+        margin: 0px auto;
+    }
+
+    div#urlShortener div#inputText input{
+        width: 200px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+        border-radius: 7px;
+        height: 20px;
+    }
+}

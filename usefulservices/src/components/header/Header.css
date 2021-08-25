@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+}
+header figure{
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+}
+header figure figcaption{
+    color: darkblue;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    margin-right: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: darkblue;
+}

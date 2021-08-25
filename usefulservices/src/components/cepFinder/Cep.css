@@ -1,0 +1,23 @@
+div#cepFinder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div#cepFinder div#inputCep{
+    margin-bottom: 10px;
+}
+div#cepFinder div#inputCep input{
+    width: 280px;
+    height: 20px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+div#cepFinder div#inputCep button{
+    background-color: cadetblue;
+    color: darkblue;
+    height: 30px;
+    width: 80px;
+}

@@ -1,0 +1,30 @@
+div#currency{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#currency div#inputCurrency select{
+    margin-right: 7px;
+    margin-left: 7px;
+    height: 25px;
+}
+
+div#currency div#inputCurrency input{
+    height: 18px;
+}
+
+div#currency div#inputCurrency button{
+    height: 25px;
+    width: 80px;
+    background-color: cadetblue;
+    color: darkblue;
+}
+
+@media(max-width: 800px) and (min-width: 200px){
+    div#currency div#inputCurrency select#destino{
+        margin-right: 30px;
+        margin-top: 5px;
+    }
+}
